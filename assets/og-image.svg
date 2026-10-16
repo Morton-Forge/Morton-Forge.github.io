@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Morton Forge - Software built for real problems">
   <rect width="1200" height="630" fill="#f7f5f2"/>
-  <rect width="1200" height="12" fill="#8b3a1f"/>
+  <rect width="1200" height="12" fill="#f26522"/>
   <rect x="80" y="120" width="96" height="96" rx="18" fill="#1a1a1a"/>
-  <path fill="#8b3a1f" d="M98 148h60v8H98v-8zm6 16h48l-6 42h-36l-6-42zm12 9 4.5 27h15L146 173h-24z"/>
+  <path fill="#f26522" d="M98 148h60v8H98v-8zm6 16h48l-6 42h-36l-6-42zm12 9 4.5 27h15L146 173h-24z"/>
   <path fill="#f5f5f5" d="M110 136h48v6h-48v-6z"/>
   <text x="210" y="175" font-family="system-ui,Segoe UI,sans-serif" font-size="56" font-weight="700" fill="#1a1a1a">Morton Forge</text>
   <text x="210" y="230" font-family="system-ui,Segoe UI,sans-serif" font-size="28" fill="#5c5c5c">Morton Forge LLC</text>

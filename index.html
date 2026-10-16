@@ -9,8 +9,9 @@
     >
     <title>Morton Forge — Software built for real problems</title>
     <link rel="canonical" href="https://www.mortonforge.com/">
-    <meta name="theme-color" content="#8b3a1f">
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" sizes="any">
+    <meta name="theme-color" content="#f26522">
+    <link rel="icon" href="assets/favicon.png" type="image/png" sizes="192x192">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.jpg">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Morton Forge">
     <meta property="og:locale" content="en_US">
@@ -20,7 +21,7 @@
       property="og:description"
       content="Morton Forge LLC provides custom software development, systems integration, automation, consulting, and purpose-built developer and business utilities."
     >
-    <meta property="og:image" content="https://www.mortonforge.com/assets/og-image.svg">
+    <meta property="og:image" content="https://www.mortonforge.com/assets/og-image.jpg">
     <meta property="og:image:alt" content="Morton Forge — Software built for real problems">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Morton Forge — Software built for real problems">
@@ -28,7 +29,7 @@
       name="twitter:description"
       content="Morton Forge LLC provides custom software development, systems integration, automation, consulting, and purpose-built developer and business utilities."
     >
-    <meta name="twitter:image" content="https://www.mortonforge.com/assets/og-image.svg">
+    <meta name="twitter:image" content="https://www.mortonforge.com/assets/og-image.jpg">
     <link rel="stylesheet" href="css/site.css">
   </head>
   <body>
@@ -38,18 +39,20 @@
       <div class="site-header__inner">
         <div class="brand">
           <a class="brand__lockup" href="#top">
-            <img
-              class="brand__mark"
-              src="assets/logo-mark.svg"
-              alt=""
-              width="40"
-              height="40"
-              decoding="async"
-            >
-            <span class="brand__text">
-              <span class="brand__name">Morton Forge</span>
-              <span class="brand__legal">Morton Forge LLC</span>
-            </span>
+            <picture class="brand__picture">
+              <source
+                srcset="assets/logo-horizontal-on-dark.png"
+                media="(prefers-color-scheme: dark)"
+              >
+              <img
+                class="brand__logo"
+                src="assets/logo-horizontal-light.jpg"
+                alt="Morton Forge"
+                width="1024"
+                height="341"
+                decoding="async"
+              >
+            </picture>
           </a>
         </div>
         <nav class="site-nav" aria-label="Primary">

@@ -40,10 +40,10 @@
           <a class="brand__lockup" href="#top">
             <img
               class="brand__mark"
-              src="assets/favicon.svg"
+              src="assets/logo-mark.svg"
               alt=""
-              width="32"
-              height="32"
+              width="40"
+              height="40"
               decoding="async"
             >
             <span class="brand__text">
@@ -65,68 +65,143 @@
 
     <main id="main-content" class="site-main" tabindex="-1">
       <section class="hero" id="top" aria-labelledby="page-headline">
-        <h1 id="page-headline">Software built for real problems</h1>
-        <p class="hero__lede">
-          Morton Forge LLC helps teams ship dependable software—through hands-on
-          development, integration work, and focused tools that remove friction
-          from everyday work.
-        </p>
+        <div class="hero__content">
+          <p class="hero__eyebrow">Morton Forge LLC</p>
+          <h1 id="page-headline">Software built for real problems</h1>
+          <p class="hero__lede">
+            Morton Forge LLC helps teams ship dependable software—through hands-on
+            development, integration work, and focused tools that remove friction
+            from everyday work.
+          </p>
+          <div class="hero__actions">
+            <a class="button" href="#contact">Start a conversation</a>
+            <a class="button button--secondary" href="#services">What we do</a>
+          </div>
+        </div>
       </section>
 
       <section class="content-section" id="services" aria-labelledby="services-heading">
-        <h2 id="services-heading">Software development and consulting</h2>
-        <p>
-          We partner with organizations that need practical engineering—not slide
-          decks. Our work centers on outcomes you can operate and extend.
-        </p>
-        <ul class="feature-list">
-          <li>Custom software development tailored to your workflows</li>
-          <li>Systems integration across existing platforms and APIs</li>
-          <li>Automation that reduces manual effort and error</li>
-          <li>Technical consulting to clarify architecture and delivery</li>
+        <div class="section-intro">
+          <h2 id="services-heading">Software development and consulting</h2>
+          <p>
+            We partner with organizations that need practical engineering—not slide
+            decks. Our work centers on outcomes you can operate and extend.
+          </p>
+        </div>
+        <ul class="card-grid">
+          <li class="card">
+            <h3 class="card__title">Custom development</h3>
+            <p class="card__body">
+              Applications and workflows shaped around how your team actually operates,
+              with maintainable code you can own long term.
+            </p>
+          </li>
+          <li class="card">
+            <h3 class="card__title">Systems integration</h3>
+            <p class="card__body">
+              Connect platforms, APIs, and data stores so information moves reliably
+              without manual handoffs.
+            </p>
+          </li>
+          <li class="card">
+            <h3 class="card__title">Automation</h3>
+            <p class="card__body">
+              Replace repetitive work with dependable automation—fewer errors, clearer
+              audit trails, more time for high-value tasks.
+            </p>
+          </li>
+          <li class="card">
+            <h3 class="card__title">Technical consulting</h3>
+            <p class="card__body">
+              Architecture reviews, delivery planning, and hands-on guidance when you
+              need a senior engineering perspective.
+            </p>
+          </li>
         </ul>
       </section>
 
       <section class="content-section" id="products" aria-labelledby="products-heading">
-        <h2 id="products-heading">Software products</h2>
-        <p>
-          We build purpose-built developer and business utilities—focused tools
-          designed to solve specific problems well, without unnecessary complexity.
-        </p>
+        <div class="section-intro">
+          <h2 id="products-heading">Software products</h2>
+          <p>
+            We build purpose-built developer and business utilities—focused tools
+            designed to solve specific problems well, without unnecessary complexity.
+          </p>
+        </div>
+        <ul class="card-grid card-grid--two">
+          <li class="card card--accent">
+            <h3 class="card__title">Focused utilities</h3>
+            <p class="card__body">
+              Small products that do one job exceptionally well—CLI tools, internal
+              dashboards, and operator-friendly utilities.
+            </p>
+          </li>
+          <li class="card card--accent">
+            <h3 class="card__title">Built to last</h3>
+            <p class="card__body">
+              Observable behavior, clear upgrade paths, and documentation your team can
+              rely on when you are not in the room.
+            </p>
+          </li>
+        </ul>
       </section>
 
       <section class="content-section" id="about" aria-labelledby="about-heading">
-        <h2 id="about-heading">About Morton Forge</h2>
-        <p>
-          Morton Forge LLC is a software company focused on thoughtful
-          engineering for real-world constraints. We keep solutions maintainable,
-          observable, and aligned with how your team actually works.
-        </p>
+        <div class="about-panel">
+          <div class="about-panel__copy">
+            <h2 id="about-heading">About Morton Forge</h2>
+            <p>
+              Morton Forge LLC is a software company focused on thoughtful
+              engineering for real-world constraints. We keep solutions maintainable,
+              observable, and aligned with how your team actually works.
+            </p>
+            <ul class="about-list">
+              <li>Pragmatic delivery—scope that matches the problem, not the pitch deck</li>
+              <li>Clear communication with stakeholders and implementers</li>
+              <li>Respect for existing systems; evolve before rewrite when it makes sense</li>
+            </ul>
+          </div>
+        </div>
       </section>
 
       <section class="content-section content-section--contact" id="contact" aria-labelledby="contact-heading">
-        <h2 id="contact-heading">Contact</h2>
-        <p>
-          Reach out to discuss a project, integration, or product idea.
-        </p>
-        <ul class="contact-actions">
-          <li>
-            <a href="mailto:john.morton@mortonforge.com">john.morton@mortonforge.com</a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/company/morton-forge"
-              rel="noopener noreferrer"
-            >Morton Forge on LinkedIn</a>
-          </li>
-        </ul>
+        <div class="contact-panel">
+          <h2 id="contact-heading">Contact</h2>
+          <p>
+            Reach out to discuss a project, integration, or product idea. We read every
+            message and respond when there is a fit.
+          </p>
+          <ul class="contact-actions">
+            <li>
+              <a class="button" href="mailto:john.morton@mortonforge.com">Email Morton Forge</a>
+            </li>
+            <li>
+              <a
+                class="button button--secondary"
+                href="https://www.linkedin.com/company/morton-forge"
+                rel="noopener noreferrer"
+              >LinkedIn</a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>
-        <small>&copy; Morton Forge LLC. All rights reserved.</small>
-      </p>
+      <div class="site-footer__inner">
+        <nav class="site-footer__nav" aria-label="Footer">
+          <ul class="site-footer__list">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+          </ul>
+        </nav>
+        <p class="site-footer__legal">
+          <small>&copy; <span data-current-year>2026</span> Morton Forge LLC. All rights reserved.</small>
+        </p>
+      </div>
     </footer>
+
+    <script type="module" src="js/site.js"></script>
   </body>
 </html>

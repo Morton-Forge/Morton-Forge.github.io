@@ -411,6 +411,23 @@ a:hover {
   color: var(--color-text-muted);
 }
 
+.card--product {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__status {
+  margin: var(--space-sm) 0 0;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+
+.card__actions {
+  margin-top: auto;
+  padding-top: var(--space-md);
+}
+
 .about-panel {
   padding: var(--space-lg);
   border-radius: calc(var(--radius) * 2);
